@@ -118,6 +118,7 @@ public class AccountCreationPage extends BaseClass {
 		action.type(postCode, zip);
 		action.selectByVisibleText(countryName, country);
 		action.type(mobile, mobilePhone);
+		System.out.println("executed......");
 	}
 	
 	public HomePage validateRegistration() throws Throwable {
